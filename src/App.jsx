@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Homla Premciosam</h1>
+      <h1>Homla Lunita Premciosam</h1>
       <img src={flower} alt="" />
       <p>Oye... te traje estas flores, porque te las mereces, porque si</p>
       <p>Aqui tambien te dejo una aromatica de manzanilla</p>
