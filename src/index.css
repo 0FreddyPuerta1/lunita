@@ -13,7 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+.ingreso{
+  display:flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.ingreso button{
+  width: 200px;
+}
+.ingreso input[type="text"]{
+  width: 250px;
+}
 a {
   font-weight: 500;
   color: #646cff;
