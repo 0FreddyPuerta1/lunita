@@ -36,7 +36,7 @@ function App() {
   if(count == 1){
     return(
       <>
-      <h3>Titulo</h3>
+      <h3>No se que poner aqui xD</h3>
       <p>No se como empezar a redactar esto. Llevo casi una hora escribiendo y borrando, borrando y escribiendo.</p>
       <p>Se siente tan bien, que ni siquiera se como explicarlo, es que simplemente es increible.</p>
       <p>hace mucho no me pasaba que alguien me hiciera sentir tanto, lo peor de todo es que no has hecho nada, solo existes y eres y me encanta como eres
