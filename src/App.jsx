@@ -5,6 +5,7 @@ import './App.css'
 import flower from './assets/flores.jpg'
 import aromatica from './assets/aromatica.jpg'
 import huevos from './assets/huevos.jpg'
+import img from './assets/img.gif'
 function App() {
   const [count, setCount] = useState(0)
   const [pass, setPass] = useState(false)
@@ -13,11 +14,11 @@ function App() {
   }
 
   const validate = ()  => {
-    if(pass == '13/10/2023'){
+    if(pass == 'noa'){
       setCount(1)
       console.log(pass)
     }else{
-      alert("contraseña incorrecta, Vinyeth. Concentrate, tu puedes :)")
+      alert("contraseña incorrecta, Dani hermosa. Concentrate, tu puedes :). Me lo dijiste por WhatsApp!")
     }
   }
   if(count === 0){
@@ -28,7 +29,7 @@ function App() {
           <input type="text" name="" id="" onChange={setPassword}/>
           <button onClick={validate}>Ingresar</button>
         </div>
-        <p>Agradezco a la vida el dia/mes/año en el que nos conocimos.</p>
+        <p>¿me recuerdas cual es el nombre de tu mascota?</p>
       </>
     )
   }
@@ -37,45 +38,8 @@ function App() {
     return(
       <>
       <h3>No se que poner aqui xD</h3>
-      <p>No se como empezar a redactar esto. Llevo casi una hora escribiendo y borrando, borrando y escribiendo.</p>
-      <p>Se siente tan bien, que ni siquiera se como explicarlo, es que simplemente es increible.</p>
-      <p>hace mucho no me pasaba que alguien me hiciera sentir tanto, lo peor de todo es que no has hecho nada, solo existes y eres y me encanta como eres
-        <br /> y disfruto cada momento, cada palabra, cada risa... Cada suspiro.
-        <br />
-        Es bonito verte y compartir contigo. 
-        <br />
-        Es bonito abrazarte y sentirte.
-        <br />
-        Realmente solo el hecho de que existas es bonito.
-        <br />
-        No se como estés hoy, pero espero que bien. No se si para cuando lees esto aun sostenemos conversaciones por WhatsApp, pero espero que si.
-        <br />
-        No se si para este momento ya me habrás mandado a la mierda, pero espero que no. Me estoy enredando, es raro, estoy nervioso de solo escribir esto.
-        <br />
-        Gracias, Vinyeth. Por la inspiracion, por la energia, por todo, por ti.
-        <br />
-        Dato curioso: La canción Luna Menguante, se llama asi porque:
-        <br />
-        1. Tu nombre, obviamente, Lunita.
-        <br />
-        2. Luna menguante quiere decir cambio.
-        <br />
-        Y pues, resulta que fuiste tu la inspiracion que dio ese 'giro' que tanto estaba buscando artisticamente hablando
-        <br />
-        disfruto mucho la musica, no se si para este momento ya logras dimensionar que tanto, pero tu me diste algo valioso para disfrutarlo aun mas
-        <br />
-        me encanta hacer lo que se me da la gana con mi musica, y tu me has dado la llave para ello
-        <br />
-        agradecido eternamente con Daniela, porque ella ha traido muchisima felicidad a mi vida. Ella te trajo a ti.
-        <br />
-        Espero que te quedes mucho tiempo, y si ya no estás, gracias por tanto, gracias por existir
-        <br />
-        Por favor nunca dejes de ser tu, de brillar asi de bonito, de transmitir tu alegria al mundo...
-        <br />
-        <h3>Te necesitamos, Vinyeth. El mundo necesita gente bonita, como tu. El mundo necesita una luna que lo equilibre.</h3>
-
-      </p>
-      <p></p>
+      <p>Hola, Dani hermosa. Solo queria mandarte un besito.</p>
+      <img src={img}></img>
       </>
     )
   }
