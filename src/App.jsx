@@ -18,7 +18,7 @@ function App() {
       setCount(1)
       console.log(pass)
     }else{
-      alert("contraseña incorrecta, Dani hermosa. Concentrate, tu puedes :). Me lo dijiste por WhatsApp!")
+      alert("contraseña incorrecta, Val hermosa. Concentrate, tu puedes :).")
     }
   }
   if(count === 0){
@@ -29,7 +29,7 @@ function App() {
           <input type="text" name="" id="" onChange={setPassword}/>
           <button onClick={validate}>Ingresar</button>
         </div>
-        <p>¿me recuerdas cual es el nombre de tu mascota?</p>
+        <p>¿me recuerdas cual es el nombre de mi mascota? La niña</p>
       </>
     )
   }
@@ -38,7 +38,7 @@ function App() {
     return(
       <>
       <h3>No se que poner aqui xD</h3>
-      <p>Hola, Dani hermosa. Solo queria mandarte un besito.</p>
+      <p>Hola, Val hermosa. Solo queria mandarte un besito.</p>
       <img src={img}></img>
       </>
     )
