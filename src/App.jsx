@@ -14,7 +14,7 @@ function App() {
   }
 
   const validate = ()  => {
-    if(pass == 'noa'){
+    if(pass == 'mariana'){
       setCount(1)
       console.log(pass)
     }else{
